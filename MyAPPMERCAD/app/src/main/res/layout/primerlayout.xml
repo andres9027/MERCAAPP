@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light">
+    <EditText
+        android:id="@+id/usua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Usuario:"
+        android:textColor="#0B3861"
+        />
+    <EditText
+        android:id="@+id/cont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Contraseña:"
+        android:textColor="#0B3861"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/ingresa"
+            android:layout_width="383dp"
+            android:layout_height="50dp"
+            android:text="Ingresar"
+            android:textStyle="italic"
+            android:textSize="16dp"
+            android:textColor="#Fff"
+            android:background="#2E64FE"
+            />
+
+    </LinearLayout>
+</LinearLayout>

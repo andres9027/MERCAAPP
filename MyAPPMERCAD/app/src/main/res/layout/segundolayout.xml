@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/text1"
+        android:text="¡Bienvenido!"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:id="@+id/text11"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/text2"
+        android:text="Usuario:Andres"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textColor="#5858FA"
+
+       />
+
+    <TextView
+        android:id="@+id/text3"
+        android:text="Contraseña:123456"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textColor="#5858FA"/>
+
+    <TextView
+        android:id="@+id/text4"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      />
+    <TextView
+        android:id="@+id/text5"
+        android:text="Se cargara a su cuenta todo lo que compre en esta pagina."
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:text="Registrar Cuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2" />
+
+    <Button
+        android:text="Salir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/but3" />
+
+</LinearLayout>
